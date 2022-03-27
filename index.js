@@ -1,6 +1,7 @@
 const { Telegraf } = require('telegraf');
 const fetch = require('node-fetch');
 const bot = new Telegraf(process.env.BOT_TOKEN);
+require('dotenv');
 
 const API_ENDPOINT = process.env.API_ENDPOINT;
 const SECRET_PATH = process.env.SECRET_PATH;
